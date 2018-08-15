@@ -54,4 +54,4 @@ mv showdata-0.0.1-SNAPSHOT.jar SHOWDATA.jar
 #启动tomcat
 cd $WORK_PATH/
 #sh bin/startup.sh
-java -jar SHOWDATA.jar --server.port=8081 > log.out 2>&1 &
+java -jar SHOWDATA.jar --server.port=8082 > log.out 2>&1 &
