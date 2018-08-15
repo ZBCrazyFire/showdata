@@ -20,7 +20,7 @@ killTomcat()
 
 killPort()
 {
-	port=8090
+	port=8082
 	#根据端口号查询对应的pid
 	pid=$(netstat -nlp | grep :$port | awk '{print $7}' | awk -F"/" '{ print $1 }');
 
